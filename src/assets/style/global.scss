@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import './variables.scss';
+
 /*---------------------
     RESET
 ---------------------*/
@@ -6,4 +9,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*---------------------
+    BODY
+---------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------------
+    COMMONS
+---------------------*/
+
+.btn {
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+a {
+    color : $primary_color;
+    
+    &:hover {
+        text-decoration: none;
+    }
 }

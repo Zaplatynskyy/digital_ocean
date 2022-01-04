@@ -1,6 +1,8 @@
 <template>
     <header>
-        
+        <div class="container">
+
+        </div>
     </header>
 </template>
 
@@ -10,6 +12,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+    header {
+        height: 80px;
+        background-color: white;
+    }
 </style>
