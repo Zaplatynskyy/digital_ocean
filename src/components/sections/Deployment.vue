@@ -1,7 +1,7 @@
 <template>
     <section id="deployment">
         <div class="container">
-            <h2>Deploy and Scale seamlessly</h2>
+            <h2 class="title_section">Deploy and Scale seamlessly</h2>
             <p class="info_section">Our optimized configuration process saves your team when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or CI/CD environtemnts.</p>
 
             <div class="row gy-3 py-5">
@@ -58,16 +58,7 @@ export default {
 @import '../../assets/style/variables.scss';
 
     #deployment {
-        h2 {
-            text-align: center;
-            margin: 10px 0;
-        }
-
-        .info_section {
-            text-align: center;
-            color: $primary_text;
-        }
-
+        
         .row {
             ul {
                 padding: 2px 10px;
