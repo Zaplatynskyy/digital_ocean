@@ -6,6 +6,7 @@
                     <h2>The simplest cloud platform for developers & teams</h2>
                     <p>Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand.</p>
                 </div>
+                
                 <div class="col-12 col-sm-5 offset-lg-1 col-lg-4">
                     <form class="box">
                         <h3 class="form_title">Deploy your app in seconds.</h3>
@@ -84,6 +85,10 @@ export default {
             .form_footer {
                 font-size: .8rem;
                 margin: 10px 0;
+
+                a:hover {
+                    text-decoration: none;
+                }
             }
         }
     }

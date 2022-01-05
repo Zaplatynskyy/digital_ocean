@@ -10,9 +10,9 @@
 
         <nav class="links production">
             <ul>
-                <li>Products<i class="fas fa-angle-down"></i></li>
+                <li>Products<i class="fas fa-chevron-down"></i></li>
                 <li>Customers</li>
-                <li>Community<i class="fas fa-angle-down"></i></li>
+                <li>Community<i class="fas fa-chevron-down"></i></li>
                 <li>Pricing</li>
             </ul>
         </nav>
@@ -20,7 +20,7 @@
         <nav class="links user">
             <ul>
                 <li>Docs</li>
-                <li>Support<i class="fas fa-angle-down"></i></li>
+                <li>Support<i class="fas fa-chevron-down"></i></li>
                 <li>Login</li>
                 <li class="sign_up">Sign Up</li>
             </ul>
