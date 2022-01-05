@@ -39,7 +39,6 @@ export default {
 
     #customer {
         background-color: $secondary_color;
-        padding: 20px;
 
         .title {
             font-size: .8rem;
