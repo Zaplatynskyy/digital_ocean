@@ -5,6 +5,8 @@
         <Deployment/>
         <Designed/>
         <Features/>
+        <Service/>
+
     </main>
 </template>
 
@@ -14,6 +16,8 @@ import Customer from './sections/Customer.vue'
 import Deployment from './sections/Deployment.vue'
 import Designed from './sections/Designed.vue'
 import Features from './sections/Features.vue'
+import Service from './sections/Service.vue'
+
 
 export default {
     name : 'Main',
@@ -22,7 +26,8 @@ export default {
         Customer,
         Deployment,
         Designed,
-        Features
+        Features,
+        Service
     }
 }
 </script>
