@@ -6,7 +6,7 @@
         <Designed/>
         <Features/>
         <Service/>
-
+        <Development/>
     </main>
 </template>
 
@@ -17,6 +17,8 @@ import Deployment from './sections/Deployment.vue'
 import Designed from './sections/Designed.vue'
 import Features from './sections/Features.vue'
 import Service from './sections/Service.vue'
+import Development from './sections/Development.vue'
+
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
         Deployment,
         Designed,
         Features,
-        Service
+        Service,
+        Development
     }
 }
 </script>

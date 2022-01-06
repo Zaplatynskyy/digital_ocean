@@ -21,7 +21,7 @@
         <div class="stories">
             <a href="#">
                 View customer stories
-                <i class="fas fa-angle-right"></i>
+                <i class="fas fa-greater-than"></i>
             </a>
         </div>
     </section>
@@ -66,6 +66,7 @@ export default {
                 }
 
                 i {
+                    font-size: .7rem;
                     margin: 0 5px
                 }
             }

@@ -10,7 +10,7 @@
                     <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
                     <a href="#">
                         Pricing
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-greater-than"></i>
                     </a>
                 </div>
 
@@ -20,7 +20,7 @@
                     <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
                     <a href="#">
                         Support
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-greater-than"></i>
                     </a>
                 </div>
 
@@ -30,7 +30,7 @@
                     <p>More than 100.000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
                     <a href="#">
                         Security
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-greater-than"></i>
                     </a>
                 </div>
             </div>
@@ -73,6 +73,7 @@ export default {
                 }
 
                 i {
+                    font-size: .6rem;
                     margin: 0 5px
                 }
             }

@@ -10,7 +10,7 @@
                         <div class="country_name">Amsterdam, Netherlands</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
                     
@@ -19,7 +19,7 @@
                         <div class="country_name">Amsterdam, Netherlands</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -28,7 +28,7 @@
                         <div class="country_name">Bangalore, India</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -37,7 +37,7 @@
                         <div class="country_name">Frankurt, German</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -46,7 +46,7 @@
                         <div class="country_name">London, UK</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -55,7 +55,7 @@
                         <div class="country_name">New York, USA</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
                 </ul>
@@ -66,7 +66,7 @@
                         <div class="country_name">Amsterdam, Netherlands</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
                     
@@ -75,7 +75,7 @@
                         <div class="country_name">Amsterdam, Netherlands</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -84,7 +84,7 @@
                         <div class="country_name">Bangalore, India</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -93,7 +93,7 @@
                         <div class="country_name">Frankurt, German</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -102,7 +102,7 @@
                         <div class="country_name">London, UK</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
 
@@ -111,7 +111,7 @@
                         <div class="country_name">New York, USA</div>
                         <a href="#">
                             Test speed
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-greater-than"></i>
                         </a>
                     </li>
                 </ul>
@@ -140,7 +140,7 @@ export default {
         ul {
 
             li {
-                padding: 20px 0;
+                padding: 20px 10px;
                 display: flex;
                 justify-content: space-between;
 
@@ -171,6 +171,7 @@ export default {
                     }
 
                     i {
+                        font-size: .6rem;
                         margin: 0 5px
                     }
                 }
